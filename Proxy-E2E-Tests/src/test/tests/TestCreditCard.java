@@ -93,45 +93,38 @@ public class TestCreditCard {
 										+ CreditCard.CONF_FILE_NAME, "PP",
 								"3DS", null, IllegalArgumentException.class,
 								"PP or 3DS not correct." },
-								{
-									System.getProperty("user.dir") + "\\"
-											+ CreditCard.CONF_FILE_NAME, "PP",
-									"PP", null, IllegalArgumentException.class,
-									"PP or PP not correct." },
-									{
-										System.getProperty("user.dir") + "\\"
-												+ CreditCard.CONF_FILE_NAME, "VISA",
-										"PP", null, IllegalArgumentException.class,
-										"VISA or PP not correct." },
-										{
-											System.getProperty("user.dir") + "\\"
-													+ CreditCard.CONF_FILE_NAME, "MC",
-											"VISA", null, IllegalArgumentException.class,
-											"MC or VISA not correct." },
-				
-				  { "C:\\Users\\BandettiniA2\\Desktop\\" +
-				  CreditCard.CONF_FILE_NAME, "VISA", "3DS", null,
-				  FileNotFoundException.class, "File " +
-				  "C:\\Users\\BandettiniA2\\Desktop\\" +
-				  CreditCard.CONF_FILE_NAME + " not found." },
-				  
-				  { System.getProperty("user.dir") + "\\" +
-				  CreditCard.CONF_FILE_NAME, "VISA", "3DS", null,
-				  IllegalArgumentException.class,
-				  "Not possible to find any cell with test case name testcase"
-				  }, 
-				  // check about values 
-				  { System.getProperty("user.dir") +
-				  "\\" + CreditCard.CONF_FILE_NAME, "test2", null, null
-				  }, { System.getProperty("user.dir") + "\\" +
-				  CreditCard.CONF_FILE_NAME, "test3", null, null }, {
-				  System.getProperty("user.dir") + "\\" +
-				  CreditCard.CONF_FILE_NAME, "test4", null, null }, 
-				  // positive test cases 
-				  { System.getProperty("user.dir") + "\\" +
-				  CreditCard.CONF_FILE_NAME, "TestFirstAddProxyCard",
-				  null, null },
-				 });
+						{
+								System.getProperty("user.dir") + "\\"
+										+ CreditCard.CONF_FILE_NAME, "PP",
+								"PP", null, IllegalArgumentException.class,
+								"PP or PP not correct." },
+						{
+								System.getProperty("user.dir") + "\\"
+										+ CreditCard.CONF_FILE_NAME, "VISA",
+								"PP", null, IllegalArgumentException.class,
+								"VISA or PP not correct." },
+						{
+								System.getProperty("user.dir") + "\\"
+										+ CreditCard.CONF_FILE_NAME, "MC",
+								"VISA", null, IllegalArgumentException.class,
+								"MC or VISA not correct." },
+
+						{
+								"C:\\Users\\BandettiniA2\\Desktop\\"
+										+ CreditCard.CONF_FILE_NAME,
+								"VISA",
+								"3DS",
+								null,
+								FileNotFoundException.class,
+								"File " + "C:\\Users\\BandettiniA2\\Desktop\\"
+										+ CreditCard.CONF_FILE_NAME
+										+ " not found." },
+						{
+								System.getProperty("user.dir") + "\\"
+										+ CreditCard.CONF_FILE_NAME, "VISA",
+								"3DS", null, null, null },
+
+				});
 	}
 
 	@Before
@@ -158,21 +151,11 @@ public class TestCreditCard {
 		}
 		// if all is fine I check if the values are correctly taken
 		if (this.card != null) {
-			// checks according to the test cases
-			/*
-			 * switch (this.testCaseName) { case "TestFirstAddProxyCard":
-			 * assertEquals
-			 * (this.configuration.getValue(TestConfiguration.CARD_TYPE
-			 * ),"VISA");
-			 * assertEquals(this.configuration.getValue(TestConfiguration
-			 * .CARD_POSITION),"1");
-			 * assertEquals(this.configuration.getValue(TestConfiguration
-			 * .USER_AUTHENTICATION),"3DS");
-			 * assertEquals(this.configuration.getValue
-			 * (TestConfiguration.FRAUD_STATUS),"ON"); break; default: throw new
-			 * AssertionError("No test case found while checking values."); }
-			 */
+			System.out.println(card.getPan());
+			System.out.println(card.getExpiryDate());
+			System.out.println(card.getCvv());
+			System.out.println(card.getName());
+			System.out.println(card.getSurname());
 		}
 	}
-
 }

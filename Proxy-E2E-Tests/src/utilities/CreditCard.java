@@ -166,7 +166,27 @@ public class CreditCard {
 			throw new FileNotFoundException("File " + pathConfigurationFile
 					+ " not found.");
 	}
+	
+	public String getPan (){
+		return this.pan;
+	}
+	
+	public String getExpiryDate(){
+		return this.expiry;
+	}
 
+	public String getCvv(){
+		return this.cvv;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public String getSurname(){
+		return this.surname;
+	}
+	
 	private boolean checkCardInfo() {
 		if (this.pan == null | this.expiry == null | this.cvv == null
 				| this.name == null | this.surname == null) {
