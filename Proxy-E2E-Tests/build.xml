@@ -1,0 +1,16 @@
+<project name="seeTestTemplateJunit" default="compile">
+	
+    <!-- compile the project -->
+	<target name="compile">
+		<delete dir="classes" failonerror="false"/>
+		<mkdir dir="classes"/>
+		<path id="lib.path.ref">
+			<fileset dir="lib" includes="*.jar"/>
+		</path>
+		<javac srcdir="src" destdir="classes" classpathref="lib.path.ref"/>
+		<copy todir="classes">
+			<fileset dir="src" excludes="**/*.java" />
+		</copy>
+	</target>
+	
+</project>

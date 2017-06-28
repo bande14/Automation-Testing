@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><nodes h="1920" ignored="false" w="1080" web="false" x="0" y="0">
+<properties>
+<property type="class" value="android.widget.FrameLayout"/>
+<property type="knownSuperClass" value="android.widget.FrameLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="0"/>
+<property type="width" value="1080"/>
+<property type="height" value="1920"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1920" ignored="false" w="1080" web="false" x="0" y="0">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="0"/>
+<property type="width" value="1080"/>
+<property type="height" value="1920"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1845" ignored="false" w="1080" web="false" x="0" y="75">
+<properties>
+<property type="class" value="android.widget.FrameLayout"/>
+<property type="knownSuperClass" value="android.widget.FrameLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="75"/>
+<property type="width" value="1080"/>
+<property type="height" value="1845"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1845" ignored="false" w="1080" web="false" x="0" y="75">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="id" value="action_bar_root"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="75"/>
+<property type="width" value="1080"/>
+<property type="height" value="1845"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1845" ignored="false" w="1080" web="false" x="0" y="75">
+<properties>
+<property type="class" value="android.widget.FrameLayout"/>
+<property type="knownSuperClass" value="android.widget.FrameLayout"/>
+<property type="id" value="content"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="75"/>
+<property type="width" value="1080"/>
+<property type="height" value="1845"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1845" ignored="false" w="1080" web="false" x="0" y="75">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="75"/>
+<property type="width" value="1080"/>
+<property type="height" value="1845"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="168" ignored="false" w="1080" web="false" x="0" y="75">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="75"/>
+<property type="width" value="1080"/>
+<property type="height" value="168"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="6" ignored="false" w="1080" web="false" x="0" y="75">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="id" value="red_top_line"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="75"/>
+<property type="width" value="1080"/>
+<property type="height" value="6"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+<node h="168" ignored="false" w="1080" web="false" x="0" y="81">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="id" value="toolbar"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="81"/>
+<property type="width" value="1080"/>
+<property type="height" value="168"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="80" ignored="false" w="167" web="false" x="48" y="125">
+<properties>
+<property type="class" value="android.widget.TextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="text" value="Wallet"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="48"/>
+<property type="y" value="125"/>
+<property type="width" value="167"/>
+<property type="height" value="80"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="168" ignored="false" w="0" web="false" x="1080" y="81">
+<properties>
+<property type="class" value="android.support.v7.widget.LinearLayoutCompat"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="1080"/>
+<property type="y" value="81"/>
+<property type="width" value="0"/>
+<property type="height" value="168"/>
+<property type="onScreen" value="false"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+</children>
+</node>
+<node h="12" ignored="false" w="1080" web="false" x="0" y="243">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="243"/>
+<property type="width" value="1080"/>
+<property type="height" value="12"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="12" ignored="false" w="1080" web="false" x="0" y="243">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="id" value="llHorizontalSeparator"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="243"/>
+<property type="width" value="1080"/>
+<property type="height" value="12"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="12" ignored="false" w="1080" web="false" x="0" y="243">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="243"/>
+<property type="width" value="1080"/>
+<property type="height" value="12"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+</children>
+</node>
+<node h="104" ignored="false" w="681" web="false" x="30" y="292">
+<properties>
+<property type="class" value="android.widget.TextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="text" value="Terms &amp; Conditions"/>
+<property type="id" value="tvTncTitle"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="30"/>
+<property type="y" value="292"/>
+<property type="width" value="681"/>
+<property type="height" value="104"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="114" ignored="false" w="1020" web="false" x="30" y="432">
+<properties>
+<property type="class" value="android.widget.TextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="text" value="Before we can set up Wallet you must read, understand and agree to our Terms and Conditions"/>
+<property type="id" value="tvTncSubTitle"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="30"/>
+<property type="y" value="432"/>
+<property type="width" value="1020"/>
+<property type="height" value="114"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="3" ignored="false" w="1080" web="false" x="0" y="570">
+<properties>
+<property type="class" value="android.widget.ImageView"/>
+<property type="knownSuperClass" value="android.widget.ImageView"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="570"/>
+<property type="width" value="1080"/>
+<property type="height" value="3"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="1191" ignored="false" w="1020" web="false" x="30" y="573">
+<properties>
+<property type="class" value="android.widget.ScrollView"/>
+<property type="knownSuperClass" value="android.widget.ScrollView"/>
+<property type="id" value="sv_layout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="30"/>
+<property type="y" value="573"/>
+<property type="width" value="1020"/>
+<property type="height" value="1191"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1015" ignored="false" w="960" web="false" x="60" y="588">
+<properties>
+<property type="class" value="android.widget.TextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="text" value="Um die Vodafone Wallet mit allen Services zu nutzen, sind Vereinbarungen mit mehreren Vertragspartnern erforderlich:&#10;&#10;1. Für die Vodafone Wallet gelten die Nutzungsbedingungen der Vodafone GmbH, &#10;Ferdinand-Braun-Platz 1, 40547 Düsseldorf.&#10;&#10;2. Für die Nutzung der Zahlungskartenfunktion zur Hinterlegung Ihrer Kreditkarte(n) oder Ihres PayPal Kontos in der Vodafone Wallet gelten zusätzlich die AGB der R. Raphael &amp; Sons plc (Company Registration No.1288938), 19-21 Shaftesbury Avenue, London, W1D 7ED.&#10;&#10;&#10;Wenn Sie „AGB BESTÄTIGEN“ anklicken, stimmen Sie dem Abschluss der oben genannten Verträge zu. "/>
+<property type="id" value="tvTncContent"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="60"/>
+<property type="y" value="588"/>
+<property type="width" value="960"/>
+<property type="height" value="1015"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="156" ignored="false" w="1080" web="false" x="0" y="1764">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="1764"/>
+<property type="width" value="1080"/>
+<property type="height" value="156"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="12" ignored="false" w="1080" web="false" x="0" y="1764">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="id" value="llHorizontalSeparator"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="1764"/>
+<property type="width" value="1080"/>
+<property type="height" value="12"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="12" ignored="false" w="1080" web="false" x="0" y="1764">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="1764"/>
+<property type="width" value="1080"/>
+<property type="height" value="12"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="144" ignored="false" w="1080" web="false" x="0" y="1776">
+<properties>
+<property type="class" value="android.widget.Button"/>
+<property type="knownSuperClass" value="android.widget.Button"/>
+<property type="text" value="I have read and I agree"/>
+<property type="id" value="btAgreeTnc"/>
+<property type="enabled" value="true"/>
+<property type="scrollable" value="true"/>
+<property type="checked" value="false"/>
+<property type="x" value="0"/>
+<property type="y" value="1776"/>
+<property type="width" value="1080"/>
+<property type="height" value="144"/>
+<property type="onScreen" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</nodes>

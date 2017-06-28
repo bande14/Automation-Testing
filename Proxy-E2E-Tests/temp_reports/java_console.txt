@@ -1,0 +1,334 @@
+
+C:\Users\RAJEND~1\AppData\Local\Temp>cd C:\Automation\mWallet\mWallet\ 
+
+C:\Automation\mWallet\mWallet>java -Ddevice.name=adb:GT-I9506 -Ddata.index=  -cp ".\lib\*";.\bin org.junit.runner.JUnitCore tests.mwallet.Script19_EditCard_Image_By_SP_Proxy 
+JUnit version 4.10
+.usedDeviceName1::Script19_EditCard_Image_By_SP_Proxy
+key::environment
+value::Preprod
+key::OpCo
+value::ES
+key::walletversion
+value::4.11.60
+key::walletpin
+value::2580
+key::walletlocalpin
+value::2580
+key::3DS-VISA number
+value::4212345678901237
+key::3DS-VISA card holder name
+value::CartaAPI
+key::3DS-VISA card expiry year
+value::2018
+key::3DS-VISA card cvv
+value::737
+key::3DS-VISA card expiry month
+value::8
+key::
+value::
+key::3DS-Mastercard holder name
+value::TanBucud
+key::3DS-Mastercard number
+value::5212345678901234
+key::3DS-Mastercard cvv
+value::737
+key::3DS-Mastercard expiry month
+value::8
+key::3DS-Mastercard expiry year
+value::2018
+key::incorrectcardnumber
+value::
+key::
+value::
+key::MD-VISA number
+value::4166676667666746
+key::MD-VISA card holder name
+value::CartaAPI
+key::MD-VISA card expiry year
+value::2018
+key::MD-VISA card cvv
+value::737
+key::MD-VISA card expiry month
+value::8
+key::
+value::
+key::Gold-Mastercard number
+value::3337597850859086
+key::Gold-Mastercard holder name
+value::CARTA
+key::
+value::
+key::preprodpaypaluserid
+value::es-billagmt-vodtest3@paypal.com
+key::preprodpaypalpwd
+value::stage2@qa
+key::prodpaypaluserid
+value::
+key::prodpaypalpwd
+value::
+key::
+value::
+key::
+value::
+key::
+value::
+key::proxycardccnumber_es
+value::+34 932 20 38 88. Editing.
+key::proxycardccnumber_it
+value::+39 06 9480 0838. Editing.
+key::proxycardccemail_es
+value::tutarjetabancaria@vodafonewallet.com
+key::proxycardccemail_it
+value::supporto.pagamenti@vodafonewallet.com
+key::
+value::
+key::walletccnumber_es
+value::123. Editing.
+key::walletccnumber_hu
+value::123. Editing.
+key::walletccnumber_it
+value::190. Editing.
+key::walletccnumber_de
+value::123. Editing.
+key::walletccnumber_nl
+value::123. Editing.
+key::walletccnumber_uk
+value::123. Editing.
+key::
+value::
+key::proxycard_hvp_es
+value::20€
+key::proxycard_hvp_it
+value::25€
+key::correctcardpindata
+value::2580
+key::testpindata
+value::1234
+key::
+value::
+key::proxycardccnumber_i_es
+value::+34932203888
+key::proxycardccemail_i_es
+value::tutarjetabancaria@vodafonewallet.com
+key::proxycardccurl_i_es
+value::vodafone.es/wallet
+key::proxycardccnumber_i_it
+value::800 581 471
+key::proxycardccemail_i_it
+value::supporto.pagamenti@vodafonewallet.com
+key::proxycardccurl_i_it
+value::http://voda.it/vodafonepay
+key::
+value::
+key::
+value::
+key::mwccurl
+value::https://pre1.cc.mw.vodafone.com/MWCC/
+key::mwccid
+value::mohd.shadab3@vodafone.com
+key::mwccpwd
+value::Sep@2016
+Devicename:adb:GT-I9506
+Agent drop all zones
+usedDeviceName::Script19_EditCard_Image_By_SP_Proxy
+teststatus2::
+mainFolder::Script19_EditCard_Image_By_SP_Proxy_06-Mar-2017 14-47-51
+Start test Script19_EditCard_Image_By_SP_Proxy_06-Mar-2017 14-47-51
+C:\Automation\mWallet\mWallet\reports\pdf\Script19_EditCard_Image_By_SP_Proxy_06-Mar-2017 14-47-51\test0
+Set device to: adb:GT-I9506
+Device Information
+Name: GT-I9506
+S/N: 18df092e
+OS: Android
+Manufacture: samsung
+Model: GT-I9506
+Version: 5.0.1
+Screen size: 1080x1920
+Connected to: 127.0.0.1
+
+Open device: adb:GT-I9506
+Clear Device Log
+Launch native activity / URL com.vodafone.mwallet/.LandingActivity
+Wait for 'xpath=//*[@text='Wallet login']' in zone NATIVE, timeout: 20000
+Found: false
+Send text '2'
+Send text '5'
+Send text '8'
+Send text '0'
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=//*[@text='Set as default']' in zone NATIVE, timeout: 1000
+Found: false
+Wait for 'xpath=//*[@text='I have read and I agree']' in zone NATIVE, timeout: 4000
+Found: false
+Wait for 'xpath=//*[@text='Rate Vodafone Wallet']' in zone NATIVE, timeout: 1000
+Found: false
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=//*[@class='android.widget.ImageButton']' in zone NATIVE, timeout: 15000
+Found: true
+TestInfo::Home screen found
+Wait for 'xpath=//*[@text='Refreshing Wallet ...']' in zone NATIVE, timeout: 10000
+Found: true
+Get top from element NATIVE:xpath=//*[@text='Refreshing Wallet ...'][0]
+false
+Wait for 'xpath=//*[@text='Rate Vodafone Wallet']' in zone NATIVE, timeout: 1000
+Found: false
+Wait for 'xpath=//*[@id='icon_close']' in zone NATIVE, timeout: 1000
+Found: false
+Wait for 'xpath=//*[@id='icon_close']' in zone NATIVE, timeout: 3000
+Found: false
+i::1
+i::1
+xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[1]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]
+i::1
+i::1
+i::1
+i::1
+i::1
+i::1
+i::1
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[1]/*/*/*[@id='ll_card_holder'])[2 and @onScreen='true'][1]' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[2]/*/*/*[@id='ll_card_holder'])[2 and @onScreen='true'][1]' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[3]/*/*/*[@id='ll_card_holder'])[2 and @onScreen='true'][1]' in zone NATIVE, timeout: 5000
+Found: true
+i::1
+Inside switch::1
+i::1
+Inside searchindexicon
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[1]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]' in zone Native, timeout: 10000
+Found: false
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[2]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]' in zone Native, timeout: 10000
+Found: false
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[3]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]' in zone Native, timeout: 10000
+Found: true
+TestPass:SP CardImage found 
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[1]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]' in zone Native, timeout: 4000
+Found: false
+Wait for 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[2]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]' in zone Native, timeout: 4000
+Found: false
+Clicked 2
+Click 'xpath=((//*[@id='pager']/*/*[@id='layout_fragment'])[3]/*/*/*[@id='ll_card_holder'])[1 and @onScreen='true'][1]' in zone Native, index: 0, click count: 1
+Check if 'xpath=//*[@id='text2' and @text='Vodafone Wallet Proxy' and @onScreen='true']' is found in zone 'NATIVE' index 0
+Found: false
+Check if 'xpath=//*[@text='Vodafone Wallet Proxy' and @onScreen='true']' is found in zone 'NATIVE' index 0
+Found: false
+Check if 'xpath=//*[contains(text(),'Vodafone Wallet Proxy') and @onScreen='true']' is found in zone 'NATIVE' index 0
+Found: false
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: false
+OpCo inside walletcommon::ES
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=//*[@text='Added card details' and @width>0 and @top='true']' in zone NATIVE, timeout: 15000
+Found: true
+Get text from element NATIVE:xpath=//*[@id='activity_title'][0]
+tests
+Click 'xpath=//*[@text='Added card details' and @width>0 and @top='true']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@text='Forgot card PIN' and @top='true']' in zone NATIVE, timeout: 6000
+Found: true
+Click 'xpath=//*[@text='2']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='5']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='8']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='0']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 8000
+Found: true
+Sleep for: 2000 milliseconds
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 2000
+Found: false
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: true
+HELLO
+Wait for 'xpath=//*[@id='edit_card_image_button']' in zone Native, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=//*[@id='edit_card_image_button']' in zone Native, index: 0, click count: 1
+Wait for 'xpath=(//*[@id='images']/*/*[@id='gridDesignItem'])[1]' in zone Native, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=(//*[@id='images']/*/*[@id='gridDesignItem'])[1]' in zone Native, index: 0, click count: 1
+Wait for 'xpath=//*[@class='android.widget.ProgressBar' and ./parent::*[@id='cardImageContainer'] and @onScreen='true' and @top='true']' in zone NATIVE, timeout: 4000
+Found: false
+Click 'xpath=//*[@text='Save']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@id='edit_card_image_button']' in zone NATIVE, timeout: 10000
+Found: true
+Click 'xpath=//*[@text='Save']' in zone NATIVE, index: 0, click count: 1
+Image changed
+Wait for 'xpath=//*[@text='Loading…']' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=//*[@id='id_button' and @width>0]' in zone Native, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=//*[@id='id_button' and @width>0]' in zone Native, index: 0, click count: 1
+Wait for 'xpath=//*[@text='Added card details' and @width>0 and @top='true']' in zone NATIVE, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=//*[@text='Added card details' and @width>0 and @top='true']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@text='Enter your card PIN']' in zone NATIVE, timeout: 7000
+Found: true
+Click 'xpath=//*[@text='2']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='5']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='8']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='0']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 8000
+Found: true
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 8000
+Found: true
+Sleep for: 2000 milliseconds
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 2000
+Found: false
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: false
+HELLO
+Wait for 'xpath=//*[@id='edit_card_image_button']' in zone Native, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=//*[@id='edit_card_image_button']' in zone Native, index: 0, click count: 1
+Wait for 'xpath=(//*[@id='images']/*/*[@id='gridDesignItem'])[2]' in zone Native, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=(//*[@id='images']/*/*[@id='gridDesignItem'])[2]' in zone Native, index: 0, click count: 1
+Wait for 'xpath=//*[@class='android.widget.ProgressBar' and ./parent::*[@id='cardImageContainer'] and @onScreen='true' and @top='true']' in zone NATIVE, timeout: 4000
+Found: false
+Click 'xpath=//*[@text='Save']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@id='edit_card_image_button']' in zone NATIVE, timeout: 10000
+Found: true
+Click 'xpath=//*[@text='Save']' in zone NATIVE, index: 0, click count: 1
+Image changed
+Wait for 'xpath=//*[@text='Loading…']' in zone NATIVE, timeout: 5000
+Found: false
+Wait for 'xpath=//*[@id='id_button' and @width>0]' in zone Native, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=//*[@id='id_button' and @width>0]' in zone Native, index: 0, click count: 1
+Wait for 'xpath=//*[@text='Added card details' and @width>0 and @top='true']' in zone NATIVE, timeout: 10000
+Found: true
+Line no.283_TestBases
+Click 'xpath=//*[@text='Added card details' and @width>0 and @top='true']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@text='Enter your card PIN']' in zone NATIVE, timeout: 7000
+Found: true
+Click 'xpath=//*[@text='2']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='5']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='8']' in zone NATIVE, index: 0, click count: 1
+Click 'xpath=//*[@text='0']' in zone NATIVE, index: 0, click count: 1
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 8000
+Found: true
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 8000
+Found: true
+Sleep for: 2000 milliseconds
+Wait for 'xpath=//*[@id='loading' and @top='true']' in zone NATIVE, timeout: 2000
+Found: false
+Wait for 'xpath=//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'loading')]' in zone NATIVE, timeout: 5000
+Found: false
+Get device log for device: GT-I9506
+<--- SUCCESS --- Smapi validation passed --->
+<--- SUCCESS --- adb:GT-I9506 --- Script19_EditCard_Image_By_SP_Proxy --- data (21) --->
+C:\Automation\mWallet\mWallet\reports\pdf\Script19_EditCard_Image_By_SP_Proxy_06-Mar-2017 14-47-51\test0
+renamed
+
+Time: 248.929
+
+OK (1 test)
+

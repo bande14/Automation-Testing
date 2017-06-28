@@ -1,0 +1,66 @@
+cd %2
+projectpath=%1
+devicename_testinstance=%2
+cardindex=%3
+cardnickname=%4
+cardType=%5
+changepingloballocal=%6
+localpin=%7
+devicename_testset=%8
+environment=%9
+SHIFT
+SHIFT
+SHIFT
+SHIFT 
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+echo "incorrectcardnumber:"%1
+echo "info_proxycard_cc_email:"%2
+echo "info_proxycard_cc_number:"%3
+echo "info_proxycard_cc_url:"%4
+echo "MASTERcardCVV:"%5
+echo "MASTERcardExpiryMonth:"%6
+echo "MASTERcardExpiryYear:"%7
+echo "MASTERcardHolderName:"%8
+echo "MASTERcardNumber:"%9
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+echo "Opco:"%1
+echo "Proxycard_HVP:"%2
+echo "ProxycardCCemail:"%3
+echo "ProxycardCCnumber:"%4
+echo "VISAcardCVV:"%5
+echo "VISAcardExpiryMonth:"%6
+echo "VISAcardExpiryYear:"%7
+echo "VISAcardHolderName:"%8
+echo "VISAcardNumber:"%9
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+SHIFT
+
+echo "WalletCCnumber:"%1
+echo "WalletGlobalPin:"%2
+echo "WalletLocalPin:"%3
+echo "WalletVersion:"%4
+
+
+::call ant compile
+::java -Ddevice.name=%2 -Ddata.index=%3 -Dproxycardtype=%4 -Dgetdevicelogmandatory=%6 -Deditnickname=%7 -cp ".\lib\*";.\classes org.junit.runner.JUnitCore %1
+::pause
+

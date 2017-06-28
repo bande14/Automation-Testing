@@ -1,0 +1,10 @@
+build/
+*.iml
+.project
+.classpath
+.DS_STORE
+.DS_Store
+.idea/
+out/
+*.log
+target

@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?><nodes ignored="true" web="false">
+<properties>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1920" ignored="false" w="1080" web="false" x="0" y="0">
+<properties>
+<property type="class" value="com.android.internal.policy.PhoneWindow$DecorView"/>
+<property type="knownSuperClass" value="android.widget.FrameLayout"/>
+<property type="backColor" value="0xFAFAFA"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="0"/>
+<property type="width" value="1080"/>
+<property type="height" value="1920"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1776" ignored="false" w="1080" web="false" x="0" y="0">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="0"/>
+<property type="width" value="1080"/>
+<property type="height" value="1776"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="0" ignored="false" w="0" web="false" x="0" y="0">
+<properties>
+<property type="id" value="action_mode_bar_stub"/>
+<property type="class" value="android.view.ViewStub"/>
+<property type="knownSuperClass" value="android.view.ViewStub"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="0"/>
+<property type="width" value="0"/>
+<property type="height" value="0"/>
+<property type="hidden" value="true"/>
+<property type="busy" value="true"/>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+<node h="1704" ignored="false" w="1080" web="false" x="0" y="72">
+<properties>
+<property type="id" value="content"/>
+<property type="class" value="android.widget.FrameLayout"/>
+<property type="knownSuperClass" value="android.widget.FrameLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="72"/>
+<property type="width" value="1080"/>
+<property type="height" value="1704"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="1704" ignored="false" w="1080" web="false" x="0" y="72">
+<properties>
+<property type="class" value="android.widget.RelativeLayout"/>
+<property type="knownSuperClass" value="android.widget.RelativeLayout"/>
+<property type="backColor" value="0xFFFFFF"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="72"/>
+<property type="width" value="1080"/>
+<property type="height" value="1704"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="168" ignored="false" w="1080" web="false" x="0" y="72">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="backColor" value="0xFFFFFF"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="72"/>
+<property type="width" value="1080"/>
+<property type="height" value="168"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="6" ignored="false" w="1080" web="false" x="0" y="72">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="72"/>
+<property type="width" value="1080"/>
+<property type="height" value="6"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="6" ignored="false" w="1080" web="false" x="0" y="72">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="backColor" value="0xE60000"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="72"/>
+<property type="width" value="1080"/>
+<property type="height" value="6"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="150" ignored="false" w="1080" web="false" x="0" y="78">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="78"/>
+<property type="width" value="1080"/>
+<property type="height" value="150"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="150" ignored="false" w="120" web="false" x="24" y="78">
+<properties>
+<property type="id" value="goBack"/>
+<property type="tag" value="Go Back"/>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="24"/>
+<property type="y" value="78"/>
+<property type="width" value="120"/>
+<property type="height" value="150"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="120" ignored="false" w="120" web="false" x="24" y="93">
+<properties>
+<property type="id" value="id_button"/>
+<property type="class" value="android.widget.ImageView"/>
+<property type="knownSuperClass" value="android.widget.ImageView"/>
+<property type="enabled" value="true"/>
+<property type="x" value="24"/>
+<property type="y" value="93"/>
+<property type="width" value="120"/>
+<property type="height" value="120"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="81" ignored="false" w="356" web="false" x="216" y="112">
+<properties>
+<property type="id" value="activity_title2"/>
+<property type="text" value="Personal Info"/>
+<property type="class" value="android.widget.TextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="216"/>
+<property type="y" value="112"/>
+<property type="width" value="356"/>
+<property type="height" value="81"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="12" ignored="false" w="1080" web="false" x="0" y="228">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="228"/>
+<property type="width" value="1080"/>
+<property type="height" value="12"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="1548" ignored="false" w="1080" web="false" x="0" y="228">
+<properties>
+<property type="id" value="scroll_view"/>
+<property type="class" value="android.widget.ScrollView"/>
+<property type="knownSuperClass" value="android.widget.ScrollView"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="228"/>
+<property type="width" value="1080"/>
+<property type="height" value="1548"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="2092" ignored="false" w="1080" web="false" x="0" y="228">
+<properties>
+<property type="id" value="main_layout"/>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="228"/>
+<property type="width" value="1080"/>
+<property type="height" value="2092"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="136" ignored="false" w="1008" web="false" x="36" y="264">
+<properties>
+<property type="id" value="activity_introduction_text"/>
+<property type="text" value="Please fill in your info below to be able to pay with Vodafone Wallet."/>
+<property type="class" value="carta.vodafone.cartaServices.views.RobotoTextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="264"/>
+<property type="width" value="1008"/>
+<property type="height" value="136"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="448">
+<properties>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="448"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="177" ignored="false" w="480" web="false" x="36" y="448">
+<properties>
+<property type="id" value="KYC_title_edit_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="448"/>
+<property type="width" value="480"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="480" web="false" x="36" y="481">
+<properties>
+<property type="id" value="KYC_title_edit"/>
+<property type="text" value="Mr"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="481"/>
+<property type="width" value="480"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="48" ignored="false" w="48" web="false" x="516" y="448">
+<properties>
+<property type="class" value="android.view.View"/>
+<property type="enabled" value="true"/>
+<property type="x" value="516"/>
+<property type="y" value="448"/>
+<property type="width" value="48"/>
+<property type="height" value="48"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+<node h="177" ignored="false" w="480" web="false" x="564" y="448">
+<properties>
+<property type="id" value="KYC_first_name_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="564"/>
+<property type="y" value="448"/>
+<property type="width" value="480"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="480" web="false" x="564" y="481">
+<properties>
+<property type="id" value="KYC_first_name_edit"/>
+<property type="text" value="Alberto"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="false"/>
+<property type="x" value="564"/>
+<property type="y" value="481"/>
+<property type="width" value="480"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="625">
+<properties>
+<property type="id" value="KYC_last_name_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="625"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="658">
+<properties>
+<property type="id" value="KYC_last_name_edit"/>
+<property type="text" value="Bandettini"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="focused" value="true"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="false"/>
+<property type="x" value="36"/>
+<property type="y" value="658"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="0" ignored="false" w="0" web="false" x="0" y="228">
+<properties>
+<property type="id" value="KYC_birth_date_error_message_box"/>
+<property type="class" value="android.widget.LinearLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="228"/>
+<property type="width" value="0"/>
+<property type="height" value="0"/>
+<property type="hidden" value="true"/>
+<property type="busy" value="true"/>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="0" ignored="false" w="0" web="false" x="0" y="228">
+<properties>
+<property type="class" value="android.widget.ImageView"/>
+<property type="knownSuperClass" value="android.widget.ImageView"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="228"/>
+<property type="width" value="0"/>
+<property type="height" value="0"/>
+<property type="hidden" value="true"/>
+<property type="busy" value="true"/>
+<property type="parentHidden" value="true"/>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+<node h="0" ignored="false" w="0" web="false" x="0" y="228">
+<properties>
+<property type="id" value="KYC_birth_date_text_error"/>
+<property type="text" value=""/>
+<property type="class" value="carta.vodafone.cartaServices.views.RobotoTextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="textColor" value="0xE60000"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="228"/>
+<property type="width" value="0"/>
+<property type="height" value="0"/>
+<property type="hidden" value="true"/>
+<property type="busy" value="true"/>
+<property type="parentHidden" value="true"/>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="802">
+<properties>
+<property type="id" value="KYC_birth_date_picker_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="802"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="835">
+<properties>
+<property type="id" value="KYC_birth_date"/>
+<property type="text" value="28/7/1991"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="false"/>
+<property type="x" value="36"/>
+<property type="y" value="835"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="979">
+<properties>
+<property type="id" value="KYC_street_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="979"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="1012">
+<properties>
+<property type="id" value="KYC_street_edit"/>
+<property type="text" value=""/>
+<property type="tag" value="KYC_address_first"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1012"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="1156">
+<properties>
+<property type="id" value="KYC_street_number_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1156"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="1189">
+<properties>
+<property type="id" value="KYC_street_number_edit"/>
+<property type="text" value=""/>
+<property type="tag" value="KYC_address_first"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1189"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="1333">
+<properties>
+<property type="id" value="KYC_city_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1333"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="1366">
+<properties>
+<property type="id" value="KYC_city_edit"/>
+<property type="text" value=""/>
+<property type="tag" value="KYC_city"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1366"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="1510">
+<properties>
+<property type="id" value="KYC_postcode_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1510"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="1543">
+<properties>
+<property type="id" value="KYC_postcode_edit"/>
+<property type="text" value=""/>
+<property type="tag" value="KYC_postcode"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1543"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="177" ignored="false" w="1008" web="false" x="36" y="1687">
+<properties>
+<property type="id" value="KYC_region_wrapper"/>
+<property type="class" value="android.support.design.widget.TextInputLayout"/>
+<property type="knownSuperClass" value="android.widget.LinearLayout"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1687"/>
+<property type="width" value="1008"/>
+<property type="height" value="177"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="1720">
+<properties>
+<property type="id" value="KYC_region_edit"/>
+<property type="text" value=""/>
+<property type="tag" value="KYC_region"/>
+<property type="class" value="android.widget.EditText"/>
+<property type="knownSuperClass" value="android.widget.EditText"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1720"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+<node h="144" ignored="false" w="1008" web="false" x="36" y="1900">
+<properties>
+<property type="id" value="KYC_country_label"/>
+<property type="text" value="Country"/>
+<property type="class" value="android.widget.TextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="36"/>
+<property type="y" value="1900"/>
+<property type="width" value="1008"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="60" ignored="false" w="1008" web="false" x="36" y="2044">
+<properties>
+<property type="id" value="KYC_country_text"/>
+<property type="text" value="Germany"/>
+<property type="tag" value="KYC_country"/>
+<property type="class" value="carta.vodafone.cartaServices.views.RobotoTextView"/>
+<property type="knownSuperClass" value="android.widget.TextView"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="false"/>
+<property type="x" value="36"/>
+<property type="y" value="2044"/>
+<property type="width" value="1008"/>
+<property type="height" value="60"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+<node h="108" ignored="false" w="299" web="false" x="390" y="2176">
+<properties>
+<property type="id" value="continue_button"/>
+<property type="text" value="Continue"/>
+<property type="class" value="carta.vodafone.cartaServices.views.RobotoButton"/>
+<property type="knownSuperClass" value="android.widget.Button"/>
+<property type="textColor" value="0x333333"/>
+<property type="enabled" value="true"/>
+<property type="x" value="390"/>
+<property type="y" value="2176"/>
+<property type="width" value="299"/>
+<property type="height" value="108"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="false"/>
+<property type="visible" value="false"/>
+<property type="top" value="true"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+</children>
+</node>
+<node h="144" ignored="false" w="1080" web="false" x="0" y="1776">
+<properties>
+<property type="id" value="navigationBarBackground"/>
+<property type="class" value="android.view.View"/>
+<property type="backColor" value="0x000000"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="1776"/>
+<property type="width" value="1080"/>
+<property type="height" value="144"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+<node h="72" ignored="false" w="1080" web="false" x="0" y="0">
+<properties>
+<property type="id" value="statusBarBackground"/>
+<property type="class" value="android.view.View"/>
+<property type="backColor" value="0x757575"/>
+<property type="enabled" value="true"/>
+<property type="x" value="0"/>
+<property type="y" value="0"/>
+<property type="width" value="1080"/>
+<property type="height" value="72"/>
+<property type="hidden" value="false"/>
+<property type="busy" value="false"/>
+<property type="onScreen" value="true"/>
+<property type="visible" value="true"/>
+<property type="top" value="false"/>
+</properties>
+<children/>
+</node>
+</children>
+</node>
+</children>
+</nodes>

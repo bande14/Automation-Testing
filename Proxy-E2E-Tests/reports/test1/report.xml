@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><test_report>
+<info>
+<test_info>
+<test_status>Failed</test_status>
+<time_zone>Central European Time</time_zone>
+<run_started>Fri, 16 Jun 2017 15:47:57</run_started>
+<total_time>10.0</total_time>
+<project>C:\Users\BandettiniA2\Desktop\Documents\Eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\Projects\Proxy-E2E-Tests</project>
+<user>BandettiniA2</user>
+<machine_name>E0225815</machine_name>
+</test_info>
+<device_info>
+<device_name>E6653</device_name>
+<manufacture>Sony</manufacture>
+<model>E6653</model>
+<os>Android</os>
+<serial_number>CB5A2AUB0R</serial_number>
+<version>6.0</version>
+<versionMajor>6.x</versionMajor>
+<screen_size>1080x1920</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<text>C:\Users\BandettiniA2\Desktop\Documents\Eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\Projects\Proxy-E2E-Tests\reports\test1</text>
+<line>Start test tests.proxy.TestFirstAddProxyCard</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>0.PNG</imageFile>
+<line>Launch native activity / URL com.vodafone.mwallet/.LandingActivity</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>1.PNG</imageFile>
+<line>Wait for 'ADD MORE' in zone default, timeout: 10000</line>
+<status>false</status>
+</report>
+<report>
+<imageFile>2.PNG</imageFile>
+<line>End Test</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>

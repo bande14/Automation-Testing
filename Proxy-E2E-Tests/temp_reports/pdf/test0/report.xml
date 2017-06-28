@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><test_report>
+<info>
+<test_info>
+<test_status>OK</test_status>
+<time_zone>Central European Time</time_zone>
+<run_started>Thu, 8 Jun 2017 14:59:42</run_started>
+<total_time>134.0</total_time>
+<project>C:\Users\BandettiniA2\Desktop\Documents\Test Tools\testting\mwallet (2)\mwallet-e2e-tests-Wallet_release-c49ac473d3d9bc82a35f25b8592c655d95ceaf0b</project>
+<user>BandettiniA2</user>
+<machine_name>E0225815</machine_name>
+</test_info>
+<device_info>
+<device_name>E6653</device_name>
+<manufacture>Sony</manufacture>
+<model>E6653</model>
+<os>Android</os>
+<serial_number>CB5A2AUB0R</serial_number>
+<version>6.0</version>
+<versionMajor>6.x</versionMajor>
+<screen_size>1080x1920</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<text>C:\Users\BandettiniA2\Desktop\Documents\Test Tools\testting\mwallet (2)\mwallet-e2e-tests-Wallet_release-c49ac473d3d9bc82a35f25b8592c655d95ceaf0b\reports\pdf\Script98_AddSecondProxy_MD_08-Jun-2017 14-59-42\test0</text>
+<line>Start test Script98_AddSecondProxy_MD_08-Jun-2017 14-59-42</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>4.PNG</imageFile>
+<line>adb:E6653 already set</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>5.PNG</imageFile>
+<line>Open device: adb:E6653</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>6.PNG</imageFile>
+<line>Clear Device Log</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>7.PNG</imageFile>
+<line>Launch native activity / URL com.vodafone.mwallet/.LandingActivity</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>8.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[@text='Wallet login']' in zone NATIVE, timeout: 2000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>9.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[@text='Set as default']' in zone NATIVE, timeout: 1000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>10.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[@text='Rate Vodafone Wallet']' in zone NATIVE, timeout: 1000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>11.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@class='android.widget.ImageButton']' in zone NATIVE, timeout: 60000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>12.PNG</imageFile>
+<line>TestInfo::Home screen found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>13.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[(@text='Refreshing Wallet ...' or @text='Syncing Wallet...' or @text='Syncing Wallet ...' or @id='tvSyncText') and @top='true']' in zone NATIVE, timeout: 1000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>14.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='LOYALTY']' in zone NATIVE, timeout: 1000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>15.PNG</imageFile>
+<text>Found: false</text>
+<line>Check if 'xpath=//*[@id='txtPinInput' and @onScreen='true']' is found in zone 'NATIVE' index 0</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>16.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='PAYMENT']' in zone NATIVE, timeout: 3000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>17.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for '//*[@text='PARKING']' in zone NATIVE, timeout: 3000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>18.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='LOYALTY']' in zone NATIVE, timeout: 3000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>19.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='TICKETS' and @width&amp;gt;0]' in zone NATIVE, timeout: 3000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>20.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='OFFERS']' in zone NATIVE, timeout: 3000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>21.PNG</imageFile>
+<secondImageFile>22.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='PAYMENT']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>23.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@id='ll_card_holder'and@onScreen='true']' in zone NATIVE, timeout: 3000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>24.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@id='addnewcardlayout']' in zone NATIVE, timeout: 1000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>25.PNG</imageFile>
+<line>TestPass:AddNewCard btn on Home page found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>26.PNG</imageFile>
+<secondImageFile>27.PNG</secondImageFile>
+<line>Click 'xpath=//*[@id='addnewcardlayout']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>28.PNG</imageFile>
+<secondImageFile>29.PNG</secondImageFile>
+<text>Found: true</text>
+<line>Swipe to find //*[@text='Visa Payment Card']//parent::*/following-sibling::*/*[@id='btAddCard' and @onScreen='true']</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>30.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Card number']' in zone NATIVE, timeout: 60000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>31.PNG</imageFile>
+<line>TestPass:CardNumber Header found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>32.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@id='card_number_edit']' in zone NATIVE, timeout: 20000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>33.PNG</imageFile>
+<line>TestPass:CardNumber Edit Field found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>34.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='SCAN YOUR CARD']' in zone NATIVE, timeout: 20000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>35.PNG</imageFile>
+<line>TestPass:Scan Your Card Visible</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>36.PNG</imageFile>
+<secondImageFile>37.PNG</secondImageFile>
+<line>Click 'xpath=//*[@id='card_number_edit']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>38.PNG</imageFile>
+<secondImageFile>39.PNG</secondImageFile>
+<line>Send text '4166676667666746'</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>40.PNG</imageFile>
+<secondImageFile>41.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>42.PNG</imageFile>
+<line>Sleep for: 2000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>43.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Card details']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>44.PNG</imageFile>
+<line>TestPass:Card details Header found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>45.PNG</imageFile>
+<text>Alberto Bandettini</text>
+<line>Get text from element NATIVE:xpath=//*[@id='card_holder_name_edit'][0]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>46.PNG</imageFile>
+<secondImageFile>47.PNG</secondImageFile>
+<line>Click 'xpath=//*[@id='expiry_date_edit']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>48.PNG</imageFile>
+<text>undefined</text>
+<line>Run native API call, element 'xpath=//*[@id='month_picker']' in zone NATIVE, index: 0 script: view.setValue(8);</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>49.PNG</imageFile>
+<line>Sleep for: 1000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>50.PNG</imageFile>
+<text>undefined</text>
+<line>Run native API call, element 'xpath=//*[@id='year_picker']' in zone NATIVE, index: 0 script: view.setValue(2018);</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>51.PNG</imageFile>
+<secondImageFile>52.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='OK']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>53.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@id='security_code_edit']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>54.PNG</imageFile>
+<line>TestPass:CardNumber CVV found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>55.PNG</imageFile>
+<secondImageFile>56.PNG</secondImageFile>
+<line>Send text 737 to element NATIVE:xpath=//*[@id='security_code_edit'][0]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>57.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@id='card_nickmane_edit']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>58.PNG</imageFile>
+<line>TestPass:CardNickname found</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>59.PNG</imageFile>
+<secondImageFile>60.PNG</secondImageFile>
+<line>Send text Bande_2 to element NATIVE:xpath=//*[@id='card_nickmane_edit'][0]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>61.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>62.PNG</imageFile>
+<line>TestPass:CardDetails added</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>63.PNG</imageFile>
+<secondImageFile>64.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>65.PNG</imageFile>
+<line>Sleep for: 2000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>66.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Create Card PIN' and @onScreen='true']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>67.PNG</imageFile>
+<line>TestInfo:Entering pin</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>68.PNG</imageFile>
+<line>Sleep for: 2000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>69.PNG</imageFile>
+<secondImageFile>70.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='2']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>71.PNG</imageFile>
+<secondImageFile>72.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='5']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>73.PNG</imageFile>
+<secondImageFile>74.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='8']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>75.PNG</imageFile>
+<secondImageFile>76.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='0']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>77.PNG</imageFile>
+<line>Sleep for: 2000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>78.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Confirm card PIN']' in zone NATIVE, timeout: 2000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>79.PNG</imageFile>
+<secondImageFile>80.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='Confirm card PIN']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>81.PNG</imageFile>
+<secondImageFile>82.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='2']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>83.PNG</imageFile>
+<secondImageFile>84.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='5']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>85.PNG</imageFile>
+<secondImageFile>86.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='8']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>87.PNG</imageFile>
+<secondImageFile>88.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='0']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>89.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>90.PNG</imageFile>
+<secondImageFile>91.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>92.PNG</imageFile>
+<line>Sleep for: 2000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>93.PNG</imageFile>
+<text>Found: true</text>
+<line>Wait for 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, timeout: 10000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>94.PNG</imageFile>
+<secondImageFile>95.PNG</secondImageFile>
+<line>Click 'xpath=//*[@text='Continue' and @onScreen='true']' in zone NATIVE, index: 0, click count: 1</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>96.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[@text='Secret Question']' in zone NATIVE, timeout: 4000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>97.PNG</imageFile>
+<line>Sleep for: 3000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>98.PNG</imageFile>
+<text>Found: false</text>
+<line>Check if 'xpath=//*[@text='CONTINUE' or @id='continue_button']' is found in zone 'NATIVE' index 0</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>99.PNG</imageFile>
+<line>Sleep for: 3000 milliseconds</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>100.PNG</imageFile>
+<text>Found: false</text>
+<line>Check if 'xpath=//*[@text='CONTINUE' or @id='continue_button']' is found in zone 'NATIVE' index 0</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>101.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[@id='activity_title2' and @onScreen='true']' in zone NATIVE, timeout: 15000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>102.PNG</imageFile>
+<line>Test Passed</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>103.PNG</imageFile>
+<text>Found: false</text>
+<line>Wait for 'xpath=//*[@id='icon_close']' in zone NATIVE, timeout: 2000</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>104.PNG</imageFile>
+<line>Get device log for device: E6653</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>105.PNG</imageFile>
+<line>End Test</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>
