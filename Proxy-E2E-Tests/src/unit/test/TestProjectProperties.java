@@ -1,4 +1,4 @@
-package test.tests;
+package unit.test;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package configuration.utilities;
+package utilities.configuration;
 
 import java.io.IOException;
 

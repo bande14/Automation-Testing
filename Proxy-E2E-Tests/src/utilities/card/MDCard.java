@@ -1,6 +1,6 @@
-package card.utilities;
+package utilities.card;
 
-import configuration.utilities.CardConfiguration;
+import utilities.configuration.CardConfiguration;
 
 public class MDCard extends CreditCard {
 	

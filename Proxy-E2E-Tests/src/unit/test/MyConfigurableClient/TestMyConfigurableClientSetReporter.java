@@ -1,4 +1,4 @@
-package test.tests.MyConfigurableClient;
+package unit.test.MyConfigurableClient;
 
 import java.util.Arrays;
 

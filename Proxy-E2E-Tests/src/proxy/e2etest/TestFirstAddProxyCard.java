@@ -1,4 +1,4 @@
-package proxy.tests;
+package proxy.e2etest;
 
 import java.lang.invoke.MethodHandles;
 
@@ -6,7 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import utilities.MyTestCase;
-import utilities.TestConfiguration;
+import utilities.configuration.TestConfiguration;
 
 public class TestFirstAddProxyCard extends MyTestCase {
 	
@@ -19,7 +19,7 @@ public class TestFirstAddProxyCard extends MyTestCase {
 		// set the test case name (taken as reflection) and get the configuration
 		testCaseName = MethodHandles.lookup().lookupClass().getSimpleName();
 		try {
-			configuration = new TestConfiguration(projectBaseDirectory + TestConfiguration.CONF_FILE_NAME, testCaseName);
+			configuration = new TestConfiguration(projectBaseDirectory + TestConfiguration.CONF_FILE_NAME, TestConfiguration.CONF_SHEET, TestConfiguration.TEST_CASE_NAME_KEY, testCaseName);
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(MyTestCase.ERROR);

@@ -1,4 +1,4 @@
-package test.tests.MyConfigurableClient;
+package unit.test.MyConfigurableClient;
 
 import java.nio.file.InvalidPathException;
 import java.util.Arrays;
