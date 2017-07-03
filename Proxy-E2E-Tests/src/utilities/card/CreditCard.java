@@ -1,6 +1,5 @@
 package utilities.card;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
@@ -105,14 +104,19 @@ public class CreditCard {
 	}
 
 	private boolean isValidExpiryDate(String expiryDate) {
-		DateFormat formatter = new SimpleDateFormat("MM/yyyy");
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/yyyy");
 		formatter.setLenient(false);
 		try {
 			formatter.parse(expiryDate);
 		} catch (ParseException e) {
 			return false;
 		}
-		return true;
+		try {
+			// additional check to avoid dates formatted as dd/MM/yyyy will pass
+			return formatter.format(formatter.parse(expiryDate)).equals(expiryDate);
+		} catch (ParseException e) {
+			return false;
+		}
 	}
 
 }

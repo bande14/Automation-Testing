@@ -24,7 +24,7 @@ public class DSCard extends CreditCard{
 		return this.username;
 	}
 	
-	public String getP3DSPassword () {
+	public String get3DSPassword () {
 		return this.password;
 	}
 
