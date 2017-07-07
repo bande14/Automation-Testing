@@ -5,8 +5,12 @@ import java.lang.invoke.MethodHandles;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.sun.org.apache.xml.internal.security.Init;
+
 import utilities.MyTestCase;
 import utilities.configuration.TestConfiguration;
+import screen.AppScreen;
+import screen.wallet.*;
 
 public class TestFirstAddProxyCard extends MyTestCase {
 	
@@ -28,15 +32,17 @@ public class TestFirstAddProxyCard extends MyTestCase {
 		//set the report type, location and test name
 		client.setReporter("pdf", projectBaseDirectory + "\\reports", testCaseName);
 		
-		// launch the client
-		client.launch("com.vodafone.mwallet/.LandingActivity", true, true);
 	}
 
 	@Test
 	public void test() {
-		if (client.waitForElement("default", "ADD MORE", 0, 10000)) {
-			// If statement
-		}
+		//launch the wallet
+		InitScreen init = new InitScreen();
+		init.performOperation(AppScreen.LAUNCH, InitScreen.WALLET, client);
+		// jumps in home screen
+		HomeScreen home = new HomeScreen();
+		home.checkscreen();
+		home.performOperation(AppScreen.CLICK, HomeScreen.ADD_PROXY_CARD, client);
 	}
 
 }

@@ -9,7 +9,7 @@ public class MyTestCase {
 	protected static String projectBaseDirectory;
 
 	private static ProjectProperties projectProperties;
-	public static final int ERROR = -1;
+	protected static final int ERROR = -1;
 
 	@BeforeClass
 	public static void beforeClass() {
