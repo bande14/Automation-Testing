@@ -1,15 +1,14 @@
-package proxy.e2etest;
+package app.e2etest.proxy.e2etest;
 
 import java.lang.invoke.MethodHandles;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.sun.org.apache.xml.internal.security.Init;
-
 import utilities.MyTestCase;
 import utilities.configuration.TestConfiguration;
-import screen.AppScreen;
+import screen.proxy.KYC2Form;
+import screen.proxy.ProxyRegistration;
 import screen.wallet.*;
 
 public class TestFirstAddProxyCard extends MyTestCase {
@@ -37,12 +36,27 @@ public class TestFirstAddProxyCard extends MyTestCase {
 	@Test
 	public void test() {
 		//launch the wallet
-		InitScreen init = new InitScreen();
-		init.performOperation(AppScreen.LAUNCH, InitScreen.WALLET, client);
-		// jumps in home screen
-		HomeScreen home = new HomeScreen();
-		home.checkscreen();
-		home.performOperation(AppScreen.CLICK, HomeScreen.ADD_PROXY_CARD, client);
+		HomeScreen.launch(client);
+		if(!HomeScreen.homeScreenLaunched(client)){
+			//either report error or we register the wallet
+		}
+		//check the homescreen - please note this is only an example. 
+		// Checks about the homescreen should be done in wallet test cases and not so relevant for proxy.
+		// Btw it does not hurt
+		HomeScreen.checkforhomescreen(client, configuration);
+		//click addCard
+		HomeScreen.clickAddProxy(client);
+		//MLD4 form to fill
+		if(!KYC2Form.checkKYC2Form(client)){
+			//report error
+		}
+		KYC2Form.fillForm(client, configuration);
+		if(!KYC2Form.checkFilledForm(client)){
+			//report error
+		}
+		//continue the registration
+		ProxyRegistration.registerProxy(client, configuration);
+		//etc
 	}
 
 }
